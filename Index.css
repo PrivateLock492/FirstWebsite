@@ -1,7 +1,19 @@
 body{
-  background-color:#a6f7f6;
+  background-image: url("pexels-pixabay-50594.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+h1{
+  background: linear-gradient(to right, #6fe3e1,#8fc4c3);
+  background-repeat: no-repeat;
+  background-attachement: fixed;
 }
-p{
+.websitepg1{
+  background: linear-gradient(to right, #6fe3e1,#8fc4c3);
+  background-repeat: no-repeat;
+  background-attachement: fixed;
+}
+.websitepg1{
   border-style:outset;
   border-color:#5eb8b6;
   border-radius: 5px;
@@ -11,5 +23,5 @@ p{
 .websitepg1{
   color:#de3318;
 }
-.websiteph1{
+
   
