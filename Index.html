@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <meta charset="UTF-8">
-  <link rel:"stylesheet"; href:"
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <head>
-    
+    <link rel="stylesheet" type="text/css" href="https://github.com/PrivateLock492/FirstWebsite//Index.css">
   </head>
   <body>
     <h1>this is my first website</h1>
-    <p></p>
+    <p class="webisitepg1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.lorem</p>
+  <hr>
+    <button onclick="doSomething">clcik to change something</button>
+    <p id="textchange">something</p>
+    <script>
+      function doSomething(){
+        document.getElementById("textchange").innerHTML= "Whoa,the text changed"
+    </script>
+    <button onclick="doSomethingcooler">This button changes something to something cooler</button>
+    <p id="coolertext">Something</p>
+<script>
+  function doSomethingcooler(){
+    document.getElementById("coolertext").innerHTML= "Something cooler"
+</script>
+    
   </body>
